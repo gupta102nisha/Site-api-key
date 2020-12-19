@@ -1,0 +1,6 @@
+siteapikey.content:
+  path: '/json_api/{site_api_key}/{node}'
+  defaults:
+    _controller: '\Drupal\site_api_key\Controller\SiteApiKeyController::content'
+  requirements:
+    _permission: 'access content'
